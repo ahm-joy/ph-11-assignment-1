@@ -31,7 +31,12 @@ h1,h2,h3,h4,a,p,button{
 .font-color-secondary{
     color: rgba(14, 14, 14, 0.5);
 }
-
+.all-title{
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 24px;
+    
+}
 /* Nav bar styles */
 .nav-container{
     display: flex;
@@ -131,4 +136,100 @@ h1,h2,h3,h4,a,p,button{
     padding: 24px;
     border-radius: 16px;
     box-shadow:0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+/* Vision section styles */
+.vision{
+    padding: 0px 160px 80px 160px;
+}
+.vision-contents{
+    display: flex;
+}
+.vision-title{
+    margin-bottom: 24px;
+}
+.vision-context{
+    margin-bottom: 32px;
+}
+.vision-contents{
+    gap: 24px;
+}
+.vision-content1{
+    padding: 32px;
+    border-radius: 16px;
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.vision-content2{
+    padding: 32px;
+    border-radius: 16px;
+    background-color: #C6E4D6;
+    
+}
+.vision-content3{
+    padding: 32px;
+    border-radius: 16px;
+    background-color: #F7EBCF;
+}
+.context-btn1{
+    border-radius: 8px;
+    background-color: #5490F5;
+    color: white;
+    box-shadow: 0 4px 4px 0 #000000 25%;
+    padding: 11px 20px;
+    border-color: none;
+    font-weight: 700;
+    font-size: 16px;
+}
+.context-btn2{
+    border-radius: 8px;
+    background-color: #09A15C;
+    color: white;
+    box-shadow: 0 4px 4px 0 #000000 25%;
+    padding: 11px 20px;
+    border-color: none;
+    font-weight: 700;
+    font-size: 16px;
+}
+.context-btn3{
+    border-radius: 8px;
+    background-color: #FFC239;
+    color: white;
+    box-shadow: 0 4px 4px 0 #000000 25%;
+    padding: 11px 20px;
+    border-color: none;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.para-section{
+    margin-top: 32px;
+    padding: 48px 24px 48px 24px;
+    border-radius: 16px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background-image: url(../images/assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: 24px;
+    background-position-y: 24px;
+}
+
+.para-shortnote{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #0E0E0E;
+    opacity: 80%;
+    margin-bottom: 12px;
+}
+
+.para-name{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.para-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0E;
+    opacity: 60%;
 }
