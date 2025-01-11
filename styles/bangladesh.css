@@ -4,7 +4,11 @@
     font-weight: 400;
     font-style: normal;
 }
-
+h1,h2,h3,h4,a,p,button{
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
 *{
     margin: 0;
 }
@@ -60,12 +64,15 @@
     padding: 80px;
     border-radius: 24px;
     gap: 64px;
+    align-items: center;
 }
 .banner-contents{
     max-width: 620px;
     margin: 117px 0 117px 0px;
 }
-
+.banner-img{
+    max-height: 400px;
+}
 .banner-title{
     font-size: 24px;
     font-weight: 700;
@@ -86,4 +93,42 @@
     padding: 17px 34px 17px 34px;
     border-radius: 8px;
     border-color: #006A50;
+}
+
+/* Pillars of bd styles */
+.pillars{
+    margin: 80px 140px 80px 140px;
+}
+.pillars-title{
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 24px;
+    margin-left: 20px;
+}
+.pillars-subtitle{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 24px;
+}
+.pillars-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0E;
+    opacity: 80%;
+    margin-top: 12px;
+    padding-right: 24px;
+}
+.pillars-box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 32px;
+    gap: 24px;
+    padding: 24px;
+}
+
+.pillars-contents{
+    align-items: left;
+    padding: 24px;
+    border-radius: 16px;
+    box-shadow:0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
