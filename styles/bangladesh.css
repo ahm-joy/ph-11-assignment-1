@@ -226,10 +226,40 @@ h1,h2,h3,h4,a,p,button{
     font-size: 20px;
     margin-bottom: 5px;
 }
-
 .para-text{
     font-size: 16px;
     font-weight: 400;
     color: #0E0E0E;
-    opacity: 60%;
+    opacity: 70%;
+}
+
+/* Recent News section */
+.news-head{
+    margin-bottom: 24px;
+}
+.news-main{
+    display: flex;
+    padding: 48px;
+    gap: 32px;
+    border-radius: 24px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    margin-bottom: 24px;
+}
+.news-title{
+    font-weight:bold;
+    font-size: 32px;
+    color: #0E0E0E;
+    opacity: 80%;
+    margin-bottom: 12px;
+}
+.news-icon{
+    width: 134px;
+    margin-bottom: 12px;
+}
+.news-text{
+    margin-top: 12px;
+    margin-bottom: 32px;
+}
+.news-img{
+    border-radius: 24px;
 }
